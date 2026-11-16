@@ -1,19 +1,19 @@
 {
   "redirects": [
     {
-      "source": "/ts(.*)",
-      "destination": "https://codesandbox.io/p/devbox/objective-feather-c3z8x9",
+      "source": "/ts",
+      "destination": "https://stackblitz.com/~/github.com/xyflow/vite-vue-flow-template",
       "permanent": true
     },
     {
-      "source": "/js(.*)",
-      "destination": "https://codesandbox.io/p/devbox/nifty-tu-35mftw",
+      "source": "/",
+      "destination": "https://stackblitz.com/~/github.com/xyflow/vite-vue-flow-template",
       "permanent": true
     },
     {
-      "source": "/(.*)",
-      "destination": "https://codesandbox.io/p/devbox/objective-feather-c3z8x9",
-      "permanent": true
+      "source": "/js",
+      "destination": "/",
+      "permanent": false
     }
   ]
 }
